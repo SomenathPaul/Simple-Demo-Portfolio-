@@ -1,0 +1,143 @@
+# Simple-Demo-Portfolio-
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coursera Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script type="text/javascript">  
+      function msg(){  
+       alert("Thank you for your Recommendation");  
+      }  
+      </script>
+  </head>
+  <body>
+    <!-- Nagigation Bar -->
+    <div class="navbar">
+      <div class="name">
+        <h1>Somenath Paul</h1>
+        <h3><i class="fa-solid fa-envelope"></i>somenath@gmail.com</h3>
+        <h3><i class="fa-solid fa-phone"></i>1234567890</h3>
+      </div>
+      <div class="about">
+        <span>About</span>
+        <span>Skills</span>
+        <span>Projects</span>
+        <span>Recommendations</span>
+      </div>
+    </div>
+<!-- Intro Section -->
+    <div class="intro">
+      <img src="stdlogo.png" alt="" />
+      <div class="intro_about">
+        <h1>Hello I'm Somenath</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
+          natus <br />reiciendis facilis dignissimos molestias, perspiciatis eos
+          deserunt corporis aut <br />repudiandae omnis dolores maxime qui
+          cupiditate deleniti <br />inventore ducimus laudantium iusto.
+        </p>
+      </div>
+    </div>
+<!-- Skills Section -->
+    <div class="skills">
+      <h1>Skills</h1>
+
+      <div class="skill_div">
+        <div class="skill_card">
+          <img src="html.png" alt="" />
+          <h2><i class="fa-solid fa-circle-check"></i>HTML</h2>
+          <h3>2 Years <br />Experiance</h3>
+        </div>
+
+        <div class="skill_card">
+          <img src="css.png" style="width: 85px;"  />
+          <h2><i class="fa-solid fa-circle-check"></i>CSS</h2>
+          <h3>2 Years <br />Experiance</h3>
+        </div>
+
+        <div class="skill_card">
+          <img src="javascript.png" style="width: 112px;" />
+          <h2><i class="fa-solid fa-circle-check"></i>JavaScript</h2>
+          <h3>2 Years <br />Experiance</h3>
+        </div>
+
+        <div class="skill_card">
+          <img src="react.png" alt="" />
+          <h2><i class="fa-solid fa-circle-check"></i>ReactJS</h2>
+          <h3>1.5 Years <br />Experiance</h3>
+        </div>
+
+        <div class="skill_card">
+          <img src="java.png" alt="" />
+          <h2><i class="fa-solid fa-circle-check"></i>HTML</h2>
+          <h3>1 Years <br />Experiance</h3>
+        </div>
+
+        <div class="skill_card">
+          <img src="node.png" style="width: 140px; margin-top: 46px;" />
+          <h2 style="margin-top: 25px;"><i class="fa-solid fa-circle-check"></i>HTML</h2>
+          <h3>6 Month <br />Experiance</h3>
+        </div>
+      </div>
+    </div>
+    <!-- Projects Section -->
+    <div class="project_sec">
+      <span>Projects</span>
+      <ul>
+        <li>Portfolio Website <br>
+          <p style="font-weight: 100; font-style: italic; color: rgb(56, 56, 56);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur cumque vel vero laudantium inventore ea temporibus excepturi reiciendis, tenetur nulla, expedita facere nisi odio consequatur corporis voluptatum iure adipisci.</p></li>
+        <li>Music Player Website <br>
+          <p style="font-weight: 100; font-style: italic; color: rgb(56, 56, 56);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur cumque vel vero laudantium inventore ea temporibus excepturi reiciendis, tenetur nulla, expedita facere nisi odio consequatur corporis voluptatum iure adipisci.</p></li>
+        <li>Ecommerce Website <br>
+          <p style="font-weight: 100; font-style: italic; color: rgb(56, 56, 56);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur cumque vel vero laudantium inventore ea temporibus excepturi reiciendis, tenetur nulla, expedita facere nisi odio consequatur corporis voluptatum iure adipisci.</p></li>
+      </ul>
+    </div>
+    <!-- Recommendation Section -->
+    <div class="recommendation">
+      <Span>Recommendations</Span>
+
+      <div class="rec">
+      <div class="rec_box">
+        <p style="font-size: 20px; font-style: italic;"> "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea perspiciatis excepturi ad dolore quo. Minima explicabo facere officiis! Adipisci quae iure ea. Laborum facilis, nobis minus possimus repellendus numquam in."</p>
+      </div>
+      <div class="rec_box">
+        <p style="font-size: 20px; font-style: italic;">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea perspiciatis excepturi ad dolore quo. Minima explicabo facere officiis! Adipisci quae iure ea. Laborum facilis, nobis minus possimus repellendus numquam in."</p>
+      </div>
+      <div class="rec_box">
+        <p style="font-size: 20px; font-style: italic;">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea perspiciatis excepturi ad dolore quo. Minima explicabo facere officiis! Adipisci quae iure ea. Laborum facilis, nobis minus possimus repellendus numquam in."</p>
+      </div>
+      </div>
+<!-- recommendation section -->
+      <div class="rec_form">
+       <Span id="rec_span">Leave a Recommendation</Span>
+        
+       <div class="form">
+       <form action="">
+        <label for="name">Name</label>
+        <input type="text" placeholder="  Name" required /><br />
+        <label for="email">Email</label>
+        <input type="text" placeholder="  xyz@gmail.com" required /><br />
+        <label for="Massege">Massege</label>
+        <input id="massege_input" type="text" placeholder="  Type your Massege" required /><br />
+
+        <input id="submit_btn" type="button" value="Submit" onclick="msg()">
+      </div>
+       </form>
+      </div>
+
+
+    </div>
+
+    <!-- script -->
+    
+    <script
+      src="https://kit.fontawesome.com/fa3dd976de.js"
+      crossorigin="anonymous"
+    > 
+  </script>
+  </body>
+</html>
